@@ -100,7 +100,7 @@ window.addEventListener("load", (e) => {
     canvas.style.position = "absolute";
 });
 
-window.addEventListener("keyup", (e) => {
+window.addEventListener("keydown", (e) => {
     switch (e.key) {
         case "ArrowLeft":
             if (canvas.style.left != "5%") {
